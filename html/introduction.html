@@ -2,67 +2,104 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>My Mini Project</title>
+    <title>My Webpage</title>
   </head>
   <body>
-    <h1>Welcome to My Mini Project</h1>
-
-    <hr />
-
-    <h2>About Me</h2>
+    <h1>Welcome to My Webpage</h1>
     <p>
-      Hi! Im Naif Alghamdi, a Python trainee at Tuwaiq Academy and a proud Real
-      Madrid fan. This is my first HTML and CSS mini project, built to practice
-      what I have learned. The page includes a list of hobbies, favorite links,
-      and a short section dedicated to my favorite football club Real Madrid.
+      <strong>Name:</strong> Naif Alghamdi<br />
+      <em>Python Trainee at Tuwaiq Academy</em>
     </p>
 
     <h2>My Hobbies</h2>
     <ul>
       <li>Watching football</li>
-      <li>Playing video games</li>
+      <li>Programming</li>
       <li>Reading tech blogs</li>
-      <li>Exploring web development</li>
+      <li>Playing video games</li>
     </ul>
 
     <h2>Favorite Links</h2>
     <ol>
       <li>
-        <a href="https://www.realmadrid.com" target="_blank"
-          >Official Real Madrid Website</a
+        <a href="https://www.realmadrid.com/" target="_blank"
+          >Real Madrid Official Site</a
         >
       </li>
-      <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
       <li>
-        <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a>
+        <a href="https://www.python.org/" target="_blank"
+          >Python Official Site</a
+        >
       </li>
+      <li><a href="https://github.com/" target="_blank">GitHub</a></li>
     </ol>
-
-    <h2>Contact Me</h2>
-    <form>
-      <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" /><br /><br />
-
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" /><br /><br />
-
-      <label for="message">Message:</label><br />
-      <textarea id="message" name="message" rows="4" cols="30"></textarea
-      ><br /><br />
-
-      <input type="submit" value="Send" />
-    </form>
 
     <h2>About Real Madrid</h2>
     <p>
+      Real Madrid Club de Fútbol is a professional football club based in
+      Madrid, Spain. Founded on <b>6 March 1902</b>, the club has traditionally
+      worn white kits.
+    </p>
+    <p>
+      <strong>Famous Players:</strong> Cristiano Ronaldo, Zinedine Zidane,
+      Sergio Ramos
+    </p>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg"
+      alt="Real Madrid Logo"
+      width="120"
+    />
+    <p>
       Real Madrid is one of the most successful football clubs in the world,
-      based in Madrid, Spain. The club has won numerous La Liga and UEFA
-      Champions League titles and is home to many football legends.
+      with <i>14 UEFA Champions League</i> titles and numerous La Liga
+      championships.
     </p>
 
-    <p>
-      Founded in 1902, Real Madrid is known for its white kit and has a
-      passionate global fanbase. Hala Madrid!
-    </p>
+    <h2>My Daily Schedule</h2>
+    <table border="1">
+      <tr>
+        <th>Time</th>
+        <th>Activity</th>
+      </tr>
+      <tr>
+        <td>8:00 AM</td>
+        <td>Wake up and breakfast</td>
+      </tr>
+      <tr>
+        <td>10:00 AM</td>
+        <td>Attend Bootcamp</td>
+      </tr>
+      <tr>
+        <td>5:00 PM</td>
+        <td>Work on projects</td>
+      </tr>
+      <tr>
+        <td>9:00 PM</td>
+        <td>Watch football or relax</td>
+      </tr>
+    </table>
+
+    <h2>Contact Me</h2>
+    <form>
+      <label
+        >Your Name:<br />
+        <input type="text" name="name" required /> </label
+      ><br /><br />
+
+      <label
+        >Your Email:<br />
+        <input type="email" name="email" required /> </label
+      ><br /><br />
+
+      <label
+        >Message:<br />
+        <textarea name="message" rows="4" required></textarea></label
+      ><br /><br />
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <hr />
+    <p>2025 Naif Alghamdi | First HTML Mini Project</p>
   </body>
 </html>
