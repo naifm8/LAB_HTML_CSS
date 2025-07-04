@@ -1,0 +1,132 @@
+/* ===== Global Styles ===== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #f0f2f5, #e0eafc);
+    color: #2c3e50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+
+/* ===== Header & Footer ===== */
+header, footer {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* ===== Headings and Text ===== */
+h1 {
+    font-size: 3em;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    border-left: 6px solid #3498db;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+p, li, label {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+/* ===== Sections ===== */
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* ===== Lists ===== */
+ul, ol {
+    margin-left: 25px;
+}
+
+/* ===== Image ===== */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 120px;
+    height: auto;
+}
+
+/* ===== Table ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+/* ===== Form ===== */
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #2980b9;
+    cursor: pointer;
+}
+
+/* ===== Flexbox Basics ===== */
+.flex-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-item {
+    flex: 1 1 45%;
+    background-color: #fdfdfd;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
