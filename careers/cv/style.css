@@ -1,0 +1,161 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header */
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d'); /* Replace with your preferred image */
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-title {
+    font-size: 2.8rem;
+    animation: fadeInDown 1s ease-in-out;
+  }
+  .hero-subtitle {
+    font-size: 1.3rem;
+    color: #ccc;
+    animation: fadeInUp 1.2s ease-in-out;
+  }
+
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Sections */
+  section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 6px solid #007BFF;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.1);
+  }
+  section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #007BFF;
+  }
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  li {
+    margin-bottom: 8px;
+  }
+  
+  /* Contact Links */
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  @media (min-width: 600px) {
+    .contact {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .contact p {
+      width: 30%;
+    }
+  }
+  
+  .download-cv {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .btn-download {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  .btn-download:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    background-color: #333;
+    color: white;
+    border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+    section h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Pseudo-classes */
+  section:focus-within {
+    outline: 2px solid #007BFF;
+  }
+  
+  /* Accessibility - Focus Styles */
+  a:focus {
+    outline: 2px dashed #007BFF;
+    outline-offset: 4px;
+  }
+  
