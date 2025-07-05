@@ -17,6 +17,4 @@ It helped me apply many of the core concepts I've been learning.
 - Layout, Box Model.
 - Downloadable CV (PDF)
 
-I'm happy with how far I’ve come, and excited to keep improving!
-
 > Built as part of my learning journey at Tuwaiq Academy 💻✨
