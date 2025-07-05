@@ -1,6 +1,6 @@
-# My CV Webpage – Naif Alghamdi
+# CV Webpage – Naif Alghamdi
 
-This is a personal CV webpage I built using only HTML and CSS.
+This repository includes several mini projects made with HTML and CSS. The main one is my personal CV webpage.
 
 Even though I'm still new to front-end development, I'm proud of how this project turned out in a short time.
 It helped me apply many of the core concepts I've been learning — like layout, responsive design, transitions,
